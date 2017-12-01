@@ -49,16 +49,83 @@ void loop()
 
 void simulate_REF_A(void)
 {
+  digitalWrite(REF, HIGH);
+  delay(7);
+  digitalWrite(REF, LOW);
+  delay(3);
+  digitalWrite(REF, HIGH);
+  delay(7);
+  digitalWrite(REF, LOW);
+  delay(3);
+  digitalWrite(REF, HIGH);
+  delay(7);
+  digitalWrite(REF, LOW);
+  delay(3);
+  digitalWrite(REF, HIGH);
+  delay(7);
+  digitalWrite(REF, LOW);
+  delay(3);
+  digitalWrite(REF, HIGH);
+  delay(7);
+  digitalWrite(REF, LOW);
+  delay(3);
+  digitalWrite(REF, HIGH);
+  delay(7);
+  digitalWrite(REF, LOW);
+  delay(3);
+  digitalWrite(REF, HIGH);
+  delay(7);
+  digitalWrite(REF, LOW);
+  delay(3);
   
+  digitalWrite(REF, HIGH);
+  delay(97);
+  digitalWrite(REF, LOW);
+  delay(20);
+  
+  digitalWrite(REF, HIGH);
+  delay(20);
+  digitalWrite(REF, LOW);
+  delay(3);
 }
 
 void simulate_REF_B(void)
 {
+  digitalWrite(REF, HIGH);
+  delay(7);
+  digitalWrite(REF, LOW);
+  delay(3);
   
+  digitalWrite(REF, HIGH);
+  delay(57);
+  digitalWrite(REF, LOW);
+  delay(20);
+  
+  digitalWrite(REF, HIGH);
+  delay(20);
+  digitalWrite(REF, LOW);
+  delay(3);
 }
 
 void simulate_REF_C(void)
 {
+  digitalWrite(REF, HIGH);
+  delay(7);
+  digitalWrite(REF, LOW);
+  delay(3);
+  digitalWrite(REF, HIGH);
+  delay(7);
+  digitalWrite(REF, LOW);
+  delay(3);
   
+  digitalWrite(REF, HIGH);
+  delay(47);
+  digitalWrite(REF, LOW);
+  delay(20);
+  
+  digitalWrite(REF, HIGH);
+  delay(20);
+  digitalWrite(REF, LOW);
+  delay(3);
 }
 
